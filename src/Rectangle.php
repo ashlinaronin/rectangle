@@ -15,7 +15,7 @@
             if ($this->length == $this->width) {
                 return true;
             } else {
-                return flse;
+                return false;
             }
         }
 
@@ -43,5 +43,5 @@
         {
             return $this->width;
         }
-    }    
+    }
 ?>
